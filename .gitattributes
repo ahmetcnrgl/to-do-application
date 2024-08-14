@@ -5,6 +5,10 @@
 *.kt linguist-vendored
 *.html linguist-vendored
 *.dart linguist-detectable
+*.cmake linguist-detectable=false
+path/to/cmake_folder/* linguist-vendored
+path/to/cmake_folder/* linguist-detectable=false
+
 
 
 
