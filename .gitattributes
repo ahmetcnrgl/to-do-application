@@ -38,6 +38,12 @@ macos/flutter/ephemeral/* linguist-vendored
 android/* linguist-vendored
 ios/* linguist-vendored
 
+CMakeLists.txt linguist-vendored
+CMakeLists.txt linguist-detectable=false
+*.cmake linguist-vendored
+*.cmake linguist-detectable=false
+
+
 
 
 
