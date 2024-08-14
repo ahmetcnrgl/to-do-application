@@ -1,13 +1,42 @@
 *.cmake linguist-vendored
 *.cpp linguist-vendored
 *.h linguist-vendored
-*.swift linguist-vendored
-*.kt linguist-vendored
-*.html linguist-vendored
-*.dart linguist-detectable
+# CMake dosyalarını hariç tutma
+*.cmake linguist-vendored
 *.cmake linguist-detectable=false
-path/to/cmake_folder/* linguist-vendored
-path/to/cmake_folder/* linguist-detectable=false
+
+# C++ dosyalarını hariç tutma
+*.cpp linguist-vendored
+*.h linguist-vendored
+*.hpp linguist-vendored
+*.cc linguist-vendored
+*.cxx linguist-vendored
+
+# Swift dosyalarını hariç tutma
+*.swift linguist-vendored
+
+# Kotlin dosyalarını hariç tutma
+*.kt linguist-vendored
+*.kts linguist-vendored
+
+# HTML dosyalarını hariç tutma
+*.html linguist-vendored
+
+# JSON dosyalarını hariç tutma
+*.json linguist-vendored
+
+# .idea ve .vscode klasörlerini hariç tutma (genellikle IDE konfigürasyon dosyaları)
+.idea/* linguist-vendored
+.vscode/* linguist-vendored
+
+# Windows, Linux ve macOS platformları için yapılandırma dosyalarını hariç tutma
+windows/flutter/ephemeral/* linguist-vendored
+linux/flutter/ephemeral/* linguist-vendored
+macos/flutter/ephemeral/* linguist-vendored
+
+# Diğer platformlara özgü yapılandırma dosyalarını hariç tutma
+android/* linguist-vendored
+ios/* linguist-vendored
 
 
 
