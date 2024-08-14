@@ -1,4 +1,4 @@
+*.cmake linguist-language=CMake
 *.dart linguist-language=Dart
-*.cpp linguist-vendored
-*.c linguist-vendored
-*.m linguist-vendored
+*.cpp linguist-language=C++
+
