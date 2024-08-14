@@ -1,4 +1,6 @@
-*.cmake linguist-language=CMake
-*.dart linguist-language=Dart
-*.cpp linguist-language=C++
+*.dart linguist-detectable
+*.cpp linguist-detectable=false
+*.h linguist-detectable=false
+*.cmake linguist-detectable=false
+
 
